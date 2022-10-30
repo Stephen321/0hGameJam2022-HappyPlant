@@ -10,15 +10,6 @@
 
 #define UNIT 32
 
-// sample
-
-//Music music = LoadMusicStream("resources/music.mp3");
-//PlayMusicStream(music);
-//SetMusicVolume(music, 0.4f);
-
-//UpdateMusicStream(music);
-//PlaySound(playerFootStepsSound);
-
 float rVP()
 {
     return (float)GetRandomValue(0.f, SCREEN_WIDTH - UNIT);
